@@ -1,0 +1,23 @@
+.header{
+  text-align: center;
+}
+.header img{
+  height: 100px;
+  text-align: center;
+}
+nav{
+  background-color:#181733;
+  line-height: 42px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+nav a{
+  text-decoration: none;
+  color: aliceblue;
+  margin-right: 20px;
+  padding: 8px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+nav a:hover{
+  background-color: #B81736;
+}

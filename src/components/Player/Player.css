@@ -1,0 +1,26 @@
+.player{
+  float: left;
+  width: 30%;
+  text-align: center;
+  margin: 10px;
+}
+.player img{
+  height: 200px;
+  width: 200px;
+  padding: 2px;
+  border:#333 1px solid;
+  border-radius: 5px;
+  margin-top: 5px;
+
+}
+.add-button{
+  background-color:#A60042;
+  width: 140px;
+  height: 30px;
+  color: #fff;
+  cursor: pointer;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
