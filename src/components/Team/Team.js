@@ -9,6 +9,7 @@ import Salary from '../Salary/Salary';
 const Team = () => {
   const [players, setPlayers] = useState(fakeData)
   const[salary, setSalary] = useState([])
+  
 
   const handleAddPlayer =(player)=>{
    const newSalary = [...salary, player];
@@ -23,6 +24,7 @@ const Team = () => {
       </div>
       <div className="salary-container">
         <Salary salary={salary}></Salary>
+    
       </div>
     </div>
   );

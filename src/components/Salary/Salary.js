@@ -1,4 +1,3 @@
-import { Button } from 'bootstrap';
 import React from 'react';
 
 const Salary = (props) => {
